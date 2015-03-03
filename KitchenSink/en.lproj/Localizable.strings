@@ -1,0 +1,332 @@
+/*
+ Localizable.string.strings
+ P4PLive
+ 
+ Created by Maxwell on 14-1-15.
+ Copyright (c) 2014 UBIA. All rights reserved.
+ */
+
+"maintitle" = "Device";
+"livetitle" = "Live";
+"settingtitle" = "Settings";
+"alerttitle" = "Alert";
+
+"title" = "Device";
+
+
+"loading" = "Loading...";
+"pending" = "Pending...";
+"connecting" = "Connecting...";
+"online" = "Online";
+"offline"= "Offline";
+"unlicense" = "Unlicense";
+"unknown" = "Unknown";
+"unreachable" = "Unreachable";
+"fail_to_setup_relay" ="Fail to setup relay";
+"no_relay_service" = "No Relay Service";
+"wrong_password" = "Wrong Password";
+"name" = "Name";
+"uid" = "UID";
+"add" = "Add";
+"password" = "Password";
+"retry_password" = "Retry Password";
+"basic_info" = "Basic Info";
+"configuration_info" = "Configuration";
+
+"device_info" = "Device Info";
+
+"basic_settings" = "Basic Settings";
+"advanced_settings" = "Advanced Settings";
+
+"model" = "Model";
+"firmware_version" = "Firmware Version";
+"vendor" = "Vendor";
+"total_space" = "Total Space";
+"free_space" = "Free Space";
+
+"security_code" = "Modify Password";
+"modify_name" =  "Modify Name";
+
+"security_code_placeholder" = "Please Input New Password";
+"modify_name_placeholder" =  "Please Input New Name";
+
+"wifi_mgmt" = "Wireless Setting";
+"storage_mgmt" = "Storage Setting";
+
+"video_quality" = "Video Quality";
+"mirror_flip" = "Mirror & Flip";
+"environment_mode" ="Environment Mode";
+"record_mode" = "Record Mode";
+"motion_detection" = "Motion Detection";
+"alarm_mode" = "Alarm Mode";
+
+"old_password" = "Old Password";
+"new_password" = "New Password";
+"retry_password" = "Retry Password";
+"apply" = "Apply";
+
+"max" = "Max";
+"high" = "High";
+"medium" = "Medium";
+"low" = "Low";
+"min" = "Min";
+
+"normal" = "Normal";
+"flip" = "Flip";
+"mirror" = "Mirror";
+"flip_mirror" = "Flip & Mirror";
+"indoor_50Hz" = "Indoor 50Hz";
+"indoor_60Hz" = "Indoor 60Hz";
+"indoor" = "Indoor";
+"outdoor" = "Outdoor";
+"night_vision" ="Night Vision";
+"off" = "Off";
+
+
+"no_record" = "No Record";
+"full_time_record" = "Full Time Record";
+"alarm_trigger_record" = "Alarm Trigger Record";
+"manual_trigger_record" = "Manual Trigger Record";
+
+"alarm_silent" = "Silent";
+"alarm_audio" = "Audio";
+"alarm_vibrate" = "Vibrate";
+"alarm_both" = "Audio & Vibrate";
+
+"err101" = "";
+"err102" = "";
+"err103" = "";
+"err104" = "";
+"err105" = "";
+"err106" = "";
+"err107" = "Wrong Login ID";
+"err108" = "";
+"err109" = "";
+"err110" = "";
+"err111" = "";
+"err112" = "";
+"err113" = "";
+"err114" = "";
+"err115" = "";
+"err201" = "";
+"err202" = "";
+"err203" = "";
+"err204" = "";
+"err205" = "";
+"err206" = "";
+"err207" = "";
+"err208" = "";
+"err209" = "";
+"err302" = "Wrong Password";
+
+"IOTCER_NOT_INITIALIZED" ="The IOTC module is not initialized yet";
+"IOTCER_UNLICENSE" = "Unlicensed or Expired";
+"IOTCER_EXCEED_MAX_SESSION" = "Reached maximum sessions";
+"IOTCER_DEVICE_NOT_LISTENING" = "Not in listening";
+"IOTCER_FAIL_CONNECT_SEARCH" = "The client stop connecting to the device";
+"IOTCER_FAIL_RESOLVE_HOSTNAME" = "Unreachable";
+"IOTCER_FAIL_CREATE_THREAD" = "Fails to create threads";
+"IOTCER_TCP_TRAVEL_FAILED" = "Cannot connect to masters in neither UDP nor TCP";
+"IOTCER_TCP_CONNECT_TO_SERVER_FAILED" = "Cannot connect to IOTC servers in TCP";
+"IOTCER_CAN_NOT_FIND_DEVICE" = "IOTC servers cannot locate the specified device";
+"IOTCER_NO_PERMISSION" = "No Permisson TCP relay";
+"IOTCER_SERVER_NOT_RESPONSE" = "Servers No Response";
+"IOTCER_FAIL_GET_LOCAL_IP" = "Fails to get the client's local IP address";
+"IOTCER_FAIL_SETUP_RELAY" = "Fails to connect the device via relay mode";
+"IOTCER_FAIL_CREATE_SOCKET" = "Fails to create sockets";
+"IOTCER_FAIL_SOCKET_OPT" = "Fails to set up socket options";
+"IOTCER_FAIL_SOCKET_BIND" = "Fails to bind sockets";
+"IOTCER_NOT_SUPPORT_RELAY" = "Not Support Relay";
+"IOTCER_NO_SERVER_LIST" = "No Servers";
+"IOTCER_DEVICE_MULTI_LOGIN" = "Device Multi Login";
+"IOTCER_INVALID_SID" = "SID Invalid";
+"IOTCER_UNKNOWN" = "Unknown Err";
+"IOTCER_TIMEOUT" = "Timeout";
+"IOTCER_SESSION_CLOSE_BY_REMOTE" = "Closed by Remote";
+"IOTCER_FAIL" = "DisConnected";
+
+"AV_ER_INVALID_ARG" = "Invalid Arg";
+"AV_ER_NOT_INITIALIZED" = "AV module is not initialized yet";
+"AV_ER_EXCEED_MAX_CHANNEL" = "The number of AV channels has reached maximum";
+"AV_ER_FAIL_CREATE_THREAD" = "Fails to create threads";
+"AV_ER_SERV_NO_RESPONSE" = "Device No Response";
+"AV_ER_SESSION_CLOSE_BY_REMOTE" = "Closed by Remote";
+"AV_ER_REMOTE_TIMEOUT_DISCONNECT" = "Timeout Disconnect";
+"AV_ER_INVALID_SID" = "Invalid SID";
+"AV_ER_CLIENT_EXIT" = "Client Exit";
+"AV_ER_TIMEOUT" = "Timeout";
+"AV_ER_WRONG_VIEWACCorPWD" = "Wrong Password";
+
+"create_account_txt" = "Create Account";
+"id_or_email_txt" = " Login ID or Email";
+"checkcode_txt" = "Code";
+//Please type your credentials.
+"login_section_footer_txt" = "";
+"register_section_footer_txt" = "";
+"please_choose_wifi_txt" = "Please select your prefered network to join.";
+"login_id_txt" = "Account";
+"register_txt" = "Create Account";
+"experience_txt" = "Experience";
+"login_txt" = "Login";
+"logout_txt" = "Logout";
+"remember_password_txt" = "Remember Password";
+"my_cameras_txt" = "My Cameras";
+"featured_cameras_txt" = "Featured Cameras";
+"activity_txt" = "Activity";
+"buddy_txt" = "My Buddies";
+"cloudrecord_txt" = "Cloud Record";
+"snapshot_txt" = "Snapshot";
+"settings_txt" = "Settings";
+"more_txt" = "More";
+"my_account_txt" = "My Account";
+
+"notifications_txt" = "Notifications";
+"receive_notification_txt" = "Receive new notification";
+"notifications_on_txt" = "On";
+"notifications_off_txt" = "Off";
+"notifications_nodisturb_txt" = "Other Feature Alerts";
+"on_txt" = "Enabled";
+"on_just_night_txt" = "Night Mode";
+"off_txt" = "Disabled";
+"notification_voice_txt"="Audio";
+"notification_vibrate_txt"="Vibration";
+
+"cloudservice_txt"= "Cloud Service";
+"cloudservice_activate_txt" = "Activate";
+
+"privacy_txt" = "Privacy";
+"general_txt" = "General";
+"about_txt" = "About";
+"back_txt" = "Back";
+"ap_ssid" = "Wi-Fi";
+"ap_key"  = "Key";
+"ap_rssi" = "Signal Strength";
+"ap_secmode" = "Security";
+"ap_showpwd" = "Show Key";
+"ap_pwd_placeholder" = "Please Input Key";
+
+"easy_setup_device_auth_info" = "Please input Account and Password for access camera";
+"easy_setup_device_description" = "Please input Extension information for the camera";
+"device_login" = "Account";
+"device_password" = "Password";
+"device_name" = "Name";
+"device_location" = "Location";
+
+"by_wifi_direct_txt" = "Easy Setup By Mode A";
+"by_setup_wifi_txt" =  "WIFI Setup New Device";
+"by_search_txt" =      "Add By Lan Search";
+"by_scan_qrcode_txt" = "Add By QR Code";
+"reload_txt" =         "Reload my cameras";
+"create_new_account_note" = "Don't have an account? Create Account";
+"initial_camera_txt" = "Setup a new camera";
+"init_camera_notify_txt" = "Make sure your Phone is Connected to Camera's Soft AP";
+"init_camera_step1_txt" = "Start Scanning WLAN on Camera";
+"init_camera_step2_txt" = "Camera's Wifi AP list";
+"init_camera_step3_txt" = "setup Camera's Wifi Config";
+
+"easy_input_wifi_key_txt" = "Please input your wlan credentials";
+"easy_setup_apply_txt" = "Apply";
+
+"easy_selected_uid_txt" = "Selected Camera(UID)";
+
+"easy_setup_step1_txt" = "Select Camera";
+"easy_setup_step2_txt" = "Select Wifi Network";
+"easy_setup_step3_txt" = "Add Camera to My Account";
+
+"easy_setup_note_txt" = "Please make sure your phone is connected to WLAN, and the indicator of cameria is blue blanking, or else, you could push the reset button to let camera enter the configuration state";
+
+"easy_input_device_login_txt" = "Please input Device Login Account";
+"easy_input_device_password_txt" = "Please input Device Login Password";
+
+"wifi_config" = "Wifi Config";
+"scan_uid_txt" = "Scan QR Code";
+"next_step_txt" = "Next";
+"ui_info_no_selectuid" = "Please scan for new camera or select one";
+"uid_len_invalid" = "scan result is not a valid Camera UID";
+"easy_scan_uid_txt" = "Please scan UID of new camera";
+"easy_select_uid_txt" = "Please select one camera to reconfigure";
+"too_many_bytes" = "Too many Bytes in SSID and Key, allow upto 98 Bytes";
+"wifi_ssid_no_input" = "Please input your wlan network ssid";
+"uid_no_input" = "Please input your camera UID";
+
+"account_and_security_txt" = "Account & Security";
+"account_txt" = "Account";
+"old_password_txt" = "Original Password";
+"old_password_placeholder_txt" = "Please input your original password";
+"new_password_txt" = "New Password";
+"new_password_placeholder_txt" = "Please input a new password";
+"reenter_password_txt" = "Re-enter Password";
+"reenter_password_placeholder_txt" = "Input the new password again";
+"apply_button_txt" = "Apply";
+
+"device_password_change_ok" = "Device Password Updated";
+"device_password_mismatch" = "Twice Input for New Password are mismatch";
+"device_password_isnull" = "Please input a new password";
+
+"tutorial_welcome" = "Welcome";
+"tutorial_title0_desc"= "";
+"tutorial_title1_desc"= "";
+"tutorial_title2_desc"= "";
+"tutorial_title3_desc"= "";
+"tutorial_title4_desc"= "";
+
+"tutorial_page0_desc"= "";
+"tutorial_page1_desc"= "";
+"tutorial_page2_desc"= "";
+"tutorial_page3_desc"= "";
+"tutorial_page4_desc"= "";
+
+"reach_max_device" = "Reach the maxinum of Devices, Please remove some then try again";
+"device_already_bound" = "Device is bound to other, you cann't bind it";
+"device_uid_invalid" = "Device UID is not authorized";
+"login_to_device_timeout" = "Login to Device Timeout";
+
+"notify_no_storage" = "Not Detect Storage Card";
+"note_for_sure_format_storage" = "Are you sure to format";
+"notify_format_storage" = "Storage Card is not Formated";
+"format_storage_btn" = "Format";
+"close_btn" = "Close";
+
+"format_storage" = "Format Storage";
+"sound_dectection" = "Sound Dectection";
+"temp_detection" = "Temperature Detection";
+
+"substream_txt" = "SD VIDEO";
+"mainstream_txt" = "HD VIDEO";
+
+"record_tile_txt" = "Record";
+
+"record_byfile_txt" = "File List";
+"record_byevent_txt" = "Event List";
+
+"record_file_count_txt" = "Total File";
+"record_event_count_txt" = "Total Event";
+
+"file_downloaded_count_txt" = "Finished";
+"file_downloading_count_txt" = "Downloading";
+
+"record_ondevice_txt" = "On Camera";
+"record_oncloud_txt" = "On Cloud";
+"record_atlocal_txt" = "At Local";
+
+"record_search_1day_txt" = "Show One Day";
+"record_search_2day_txt" = "Show Two Days";
+"record_search_3day_txt" = "Show Three Days";
+"record_search_7day_txt" = "Show One Week";
+"record_search_all_txt"  = "Show All ";
+"record_search_other_txt" = "Customize";
+
+"p1_tab_snap"   = "Snapshot";
+"p1_tab_record" = "Record";
+"p1_tab_talk"   = "Talk";
+"p1_tab_video"  = "Video";
+"p1_tab_setting"= "Setting";
+
+"p2_tab_device"   = "Device";
+"p2_tab_transfer" = "Transfer";
+"p2_tab_cloud" = "Cloud";
+"p2_tab_local"    = "Local";
+
+"lm_sect_title_device"  = "Device";
+"lm_sect_title_mgmt"    = "Management";
+"lm_sect_title_other"   = "Other";

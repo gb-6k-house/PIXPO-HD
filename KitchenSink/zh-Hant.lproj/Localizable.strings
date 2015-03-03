@@ -1,0 +1,345 @@
+/*
+ Localizable.string.strings
+ P4PLive
+ 
+ Created by Maxwell on 14-1-15.
+ Copyright (c) 2014年 UBIA. All rights reserved.
+ */
+
+"maintitle" = "設備";
+"livetitle" = "实时";
+"settingtitle" = "設置";
+"alerttitle" = "告警";
+
+"title" = "設備";
+
+/***********Device Status Define Begin*************/
+
+"loading" = "加載中...";
+"pending" = "等待中...";
+"connecting" = "連接中...";
+"online" = "在線";
+"offline"= "離線";
+"unlicense" = "無效設備";
+"unknown" = "位置設備";
+"unreachable" = "網絡不可達";
+"fail_to_setup_relay" ="建立中繼失敗";
+"no_relay_service" = "無中繼服務";
+"wrong_password" = "密碼錯誤";
+
+/***********Device Status Define End***************/
+
+
+
+/***********Label Define Begin*************/
+"name" = "名稱";
+"uid" = "UID";
+"password" = "密碼";
+"add" = "添加";
+"retry_password" = "重輸密碼";
+"basic_info" = "基本信息";
+"configuration_info" = "参数設置";
+
+"device_info" = "設備信息";
+
+"basic_settings" = "基本設置";
+"advanced_settings" = "高級設置";
+
+"model" = "型號";
+"firmware_version" = "固件版本";
+"vendor" = "廠商";
+"total_space" = "總空間";
+"free_space" = "可用空間";
+
+"security_code" = "修改密碼";
+"modify_name" =  "修改名稱";
+
+"security_code_placeholder" = "請輸入新密碼";
+"modify_name_placeholder" =  "請輸入新名稱";
+
+"wifi_mgmt" = "无线設置";
+"storage_mgmt" = "存储管理";
+
+"video_quality" = "視頻質量";
+
+"mirror_flip" = "圖像翻轉";
+"environment_mode" ="環境模式";
+"record_mode" = "錄像模式";
+"motion_detection" = "移動偵測";
+
+"alarm_mode" = "事件通知";
+
+"old_password" = "當前密碼";
+"new_password" = "新的密碼";
+"retry_password" = "重輸新密碼";
+"apply" = "应用";
+
+"max" = "最高";
+"high" = "高";
+"medium" = "中";
+"low" = "低";
+"min" = "最低";
+
+"normal" = "正常";
+"flip" = "垂直翻轉";
+"mirror" = "水平翻轉";
+"flip_mirror" = "同時翻轉";
+"indoor_50Hz" = "室內 50Hz";
+"indoor_60Hz" = "室内 60Hz";
+"indoor" = "室内";
+"outdoor" = "室外";
+"night_vision" ="夜視";
+"off" = "關閉";
+
+"no_record" = "關閉錄像";
+"full_time_record" = "全天錄像";
+"alarm_trigger_record" = "告警觸發";
+"manual_trigger_record" = "手動觸發";
+
+"alarm_silent" = "安靜模式";
+"alarm_audio" = "鈴聲";
+"alarm_vibrate" = "震動";
+"alarm_both" = "鈴聲及震動";
+
+"err101" = "";
+"err102" = "";
+"err103" = "";
+"err104" = "";
+"err105" = "";
+"err106" = "";
+"err107" = "";
+"err108" = "";
+"err109" = "";
+"err110" = "";
+"err111" = "";
+"err112" = "";
+"err113" = "";
+"err114" = "";
+"err115" = "";
+"err201" = "";
+"err202" = "";
+"err203" = "";
+"err204" = "";
+"err205" = "";
+"err206" = "";
+"err207" = "";
+"err208" = "";
+"err209" = "";
+"err302" = "";
+
+"IOTCER_NOT_INITIALIZED" ="IOTC未初始化";
+"IOTCER_UNLICENSE" = "設備編號無效";
+"IOTCER_EXCEED_MAX_SESSION" = "已到最大會話數";
+"IOTCER_DEVICE_NOT_LISTENING" = "設備不在監聽";
+"IOTCER_FAIL_CONNECT_SEARCH" = "本地搜索結束";
+"IOTCER_FAIL_RESOLVE_HOSTNAME" = "域名解析失敗";
+"IOTCER_FAIL_CREATE_THREAD" = "创建线程失敗";
+"IOTCER_TCP_TRAVEL_FAILED" = "無法連接主服務器";
+"IOTCER_TCP_CONNECT_TO_SERVER_FAILED" = "TCP访问服務器失敗";
+"IOTCER_CAN_NOT_FIND_DEVICE" = "離线";
+"IOTCER_NO_PERMISSION" = "未启用TCP中转";
+"IOTCER_SERVER_NOT_RESPONSE" = "服務器無响应";
+"IOTCER_FAIL_GET_LOCAL_IP" = "获取本地地址失敗";
+"IOTCER_FAIL_SETUP_RELAY" = "建立服務中转失敗";
+"IOTCER_FAIL_CREATE_SOCKET" = "套接字创建失敗";
+"IOTCER_FAIL_SOCKET_OPT" = "套接字設置失敗";
+"IOTCER_FAIL_SOCKET_BIND" = "套接字绑定失敗";
+"IOTCER_NOT_SUPPORT_RELAY" = "服務器不支持中转";
+"IOTCER_NO_SERVER_LIST" = "無服務器";
+"IOTCER_DEVICE_MULTI_LOGIN" = "多設備复用UID";
+"IOTCER_INVALID_SID" = "無效SID";
+"IOTCER_UNKNOWN" = "未知错误";
+"IOTCER_TIMEOUT" = "連接超時";
+"IOTCER_SESSION_CLOSE_BY_REMOTE" = "远端关闭";
+"IOTCER_FAIL" = "連接失敗";
+
+"AV_ER_INVALID_ARG" = "無效参数";
+"AV_ER_NOT_INITIALIZED" = "AV未初始化";
+"AV_ER_EXCEED_MAX_CHANNEL" = "已到最大通道数";
+"AV_ER_FAIL_CREATE_THREAD" = "创建线程失敗";
+"AV_ER_SERV_NO_RESPONSE" = "設備未响应";
+"AV_ER_SESSION_CLOSE_BY_REMOTE" = "設備已关闭會話";
+"AV_ER_REMOTE_TIMEOUT_DISCONNECT" = "远端超时";
+"AV_ER_INVALID_SID" = "會話标识無效";
+"AV_ER_CLIENT_EXIT" = "連接退出";
+"AV_ER_TIMEOUT" = "登陸超時";
+"AV_ER_WRONG_VIEWACCorPWD" = "帳號密碼错误";
+
+"create_account_txt" = "創建賬號";
+"id_or_email_txt" = "賬號或Email地址";
+"checkcode_txt" = "校驗碼";
+"login_section_footer_txt" = "";
+"register_section_footer_txt" = "";
+"please_choose_wifi_txt" = "請選擇你希望加入的網絡.";
+
+"login_id_txt" = "賬號";
+"experience_txt" = "嘗鮮體驗";
+"register_txt" = "創建賬號";
+"login_txt" = "用戶登陸";
+"logout_txt" = "退出登陸";
+"remember_password_txt" = "記住密碼";
+"my_cameras_txt" = "我的攝像頭";
+"featured_cameras_txt" = "公共攝像頭";
+"activity_txt" = "攝像頭通知";
+"cloudrecord_txt" = "我的雲視頻";
+"snapshot_txt" = "我的雲相冊";
+"buddy_txt" = "我的小夥伴";
+
+"settings_txt" = "設置";
+"more_txt" = "更多設置项";
+"my_account_txt" = "賬號於安全";
+"notifications_txt" = "新消息通知";
+
+"receive_notification_txt" = "接收新消息通知";
+"notifications_on_txt" = "已開啟";
+"notifications_off_txt" = "已關閉";
+
+"notifications_nodisturb_txt" = "勿擾模式";
+"on_txt" = "開啟";
+"on_just_night_txt" = "僅在夜間開啟";
+"off_txt" = "關閉";
+"notification_voice_txt"="聲音";
+"notification_vibrate_txt"="震動";
+
+"cloudservice_txt"= "雲服務";
+"cloudservice_activate_txt" = "激活雲服務";
+
+"privacy_txt" = "隱私";
+"general_txt" = "通用";
+"about_txt" = "關於";
+"back_txt" = "返回";
+
+"ap_ssid" = "無線局域網";
+"ap_key"  = "密碼";
+"ap_rssi" = "信號強度";
+"ap_secmode" = "安全選項";
+"ap_showpwd" = "顯示密碼";
+"ap_pwd_placeholder" = "請輸入密碼";
+
+"easy_setup_device_auth_info" = "請輸入登陸攝像頭的帳號和密碼";
+"easy_setup_device_description" = "請輸入攝像頭的描述信息";
+"device_login" = "帳號";
+"device_password" = "密碼";
+"device_name" = "名稱";
+"device_location" = "位置";
+
+"by_wifi_direct_txt" = "敏捷连接模式A";
+"by_setup_wifi_txt" =  "無線連接新設備";
+"by_search_txt" =      "局域网搜索添加";
+"by_scan_qrcode_txt" = "二维码掃描添加";
+"reload_txt" =         "重新加載攝像頭";
+
+"create_new_account_note" = "還沒有帳號？創建帳號";
+"initial_camera_txt" = "安裝攝像頭";
+"init_camera_notify_txt" = "請確認手機無線局域網已連接到攝像頭自帶熱點MyAP";
+"init_camera_step1_txt" = "啟動攝像頭搜索可以接入的本地熱點";
+"init_camera_step2_txt" = "攝像頭周圍的WIFI熱點";
+"init_camera_step3_txt" = "攝像頭連接到指定WIFI熱點";
+
+"easy_setup_note_txt" = "請確認手機已連接到WIFI無線網絡，且設備在藍燈閃爍，如在其他狀態請请按一下設備後的reset键";
+
+"easy_input_wifi_key_txt" = "請輸入無線網絡密鑰";
+"easy_setup_apply_txt" = "應用";
+"easy_selected_uid_txt" = "已選擇的設備標識(UID)";
+"easy_scan_uid_txt" = "请掃描新攝像頭標識（UID）";
+"easy_select_uid_txt" = "請選擇已有攝像頭";
+"easy_setup_step1_txt" = "選擇攝像頭";
+"easy_setup_step2_txt" = "選擇網絡";
+"easy_setup_step3_txt" = "添加到我的賬戶";
+"wifi_config" = "無線局域網配置";
+"uid_len_invalid" = "未能識別出有效的設備標識（UID）";
+"too_many_bytes" = "SSID和Key總長度不能超過98字節";
+"scan_uid_txt" = "掃描二維碼";
+"next_step_txt" = "下一步";
+"ui_info_no_selectuid" = "請掃描新設備編號或選擇已有設備";
+
+
+"easy_input_device_login_txt" = "請輸入攝像頭登陸賬號";
+"easy_input_device_password_txt" = "請輸入攝像頭登陸密碼";
+
+"wifi_ssid_no_input" = "請輸入無線網絡名稱（SSID）";
+"uid_no_input" = "請輸入需要配置的攝像頭標識（UID）";
+
+"account_and_security_txt" = "帳號於安全";
+"account_txt" = "帳號";
+"old_password_txt" = "原始密碼";
+"old_password_placeholder_txt" = "请输入您的原始密码";
+"new_password_txt" = "新的密碼";
+"new_password_placeholder_txt" = "請輸入新的密碼";
+"reenter_password_txt" = "確認密碼";
+"reenter_password_placeholder_txt" = "請再次輸入新的密碼";
+"apply_button_txt" = "應用";
+
+"device_password_change_ok" = "設備密碼修改成功";
+"device_password_mismatch" = "兩次輸入的新密碼不同，請重新輸入";
+"device_password_isnull" = "請輸入新的密碼";
+"tutorial_welcome" = "歡迎";
+
+"tutorial_title0_desc"= "";
+"tutorial_title1_desc"= "";
+"tutorial_title2_desc"= "";
+"tutorial_title3_desc"= "";
+"tutorial_title4_desc"= "";
+
+"tutorial_page0_desc"= "";
+"tutorial_page1_desc"= "";
+"tutorial_page2_desc"= "";
+"tutorial_page3_desc"= "";
+"tutorial_page4_desc"= "";
+
+"reach_max_device" = "已是最大設備數, 請刪除一些再添加";
+"device_already_bound" = "設備已綁定, 請通知原用戶解除綁定，再試一次";
+"device_uid_invalid" = "設備UID未授權";
+"login_to_device_timeout" = "登陸設備超時";
+"note_for_sure_format_storage" = "是否對存儲卡進行格式化？";
+"notify_format_storage" = "存儲卡未格式化";
+"format_storage_btn" = "格式化";
+"close_btn" = "關閉";
+"notify_no_storage" = "攝像頭未監測到存儲卡";
+
+"format_storage" = "格式化存儲卡";
+"sound_dectection" = "聲音偵測";
+"temp_detection" = "溫度偵測";
+
+"substream_txt" = "標清";
+"mainstream_txt" = "高清";
+
+"record_tile_txt" = "查看錄像";
+
+"record_byfile_txt" = "文件列表";
+"record_byevent_txt" = "事件列表";
+
+"record_file_count_txt" = "文件總數";
+"record_event_count_txt" = "事件總數";
+
+"file_downloaded_count_txt" = "下載完成";
+"file_downloading_count_txt" = "正在下載";
+
+
+"record_ondevice_txt" = "在设备";
+"record_oncloud_txt" = "在云端";
+"record_atlocal_txt" = "在本地";
+
+"record_search_1day_txt" = "一天以內";
+"record_search_2day_txt" = "兩天以内";
+"record_search_3day_txt" = "叁天以内";
+"record_search_7day_txt" = "柒天以内";
+"record_search_all_txt"  = "顯示全部";
+"record_search_other_txt" = "選擇時間段";
+
+"p1_tab_snap"   = "拍照";
+"p1_tab_record" = "錄像";
+"p1_tab_talk"   = "對講";
+"p1_tab_video"  = "視頻";
+"p1_tab_setting"= "設置";
+
+"p2_tab_device"   = "在設備";
+"p2_tab_transfer" = "傳輸列表";
+"p2_tab_cloud" = "在雲端";
+"p2_tab_local"    = "在本地";
+
+"lm_sect_title_device"  = "設備";
+"lm_sect_title_mgmt"    = "管理";
+"lm_sect_title_other"   = "其他";
+
+/***********Label Define End***************/

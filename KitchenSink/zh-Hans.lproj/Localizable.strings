@@ -1,0 +1,336 @@
+/* 
+  Localizable.string.strings
+  P4PLive
+
+  Created by Maxwell on 14-1-15.
+  Copyright (c) 2014年 UBIA. All rights reserved.
+*/
+"maintitle" = "设备";
+"livetitle" = "实时";
+"settingtitle" = "设置";
+"alerttitle" = "告警";
+
+"title" = "设备";
+
+"loading" = "加载中...";
+"pending" = "等待中...";
+"connecting" = "连接中...";
+"online" = "在线";
+"offline"= "离线";
+"unlicense" = "无效设备";
+"unknown" = "未知设备";
+"unreachable" = "网络不可达";
+"fail_to_setup_relay" ="建立中继失败";
+"no_relay_service" = "无中继服务";
+"wrong_password" = "秘密错误";
+
+"name" = "名称";
+"uid" = "UID";
+"password" = "密码";
+"add" = "添加";
+"retry_password" = "重输密码";
+
+"basic_info" = "基本信息";
+"configuration_info" = "参数设置";
+
+"device_info" = "设备信息";
+
+"basic_settings" = "基本设置";
+"advanced_settings" = "高级设置";
+
+"model" = "型号";
+"firmware_version" = "固件版本";
+"vendor" = "厂商";
+"total_space" = "总空间";
+"free_space" = "可用空间";
+
+"security_code" = "修改密码";
+"modify_name" =  "修改名称";
+
+"security_code_placeholder" = "请输入新密码";
+"modify_name_placeholder" =  "请输入新名称";
+
+"wifi_mgmt" = "无线设置";
+"storage_mgmt" = "存储管理";
+
+"video_quality" = "视频质量";
+
+"mirror_flip" = "图像翻转";
+"environment_mode" ="环境模式";
+"record_mode" = "录像模式";
+"motion_detection" = "移动侦测";
+
+"alarm_mode" = "事件通知";
+
+"old_password" = "当前密码";
+"new_password" = "新的密码";
+"retry_password" = "重输新密码";
+"apply" = "应用";
+
+"max" = "最高";
+"high" = "高";
+"medium" = "中";
+"low" = "低";
+"min" = "最低";
+
+"normal" = "正常";
+"flip" = "垂直翻转";
+"mirror" = "水平翻转";
+"flip_mirror" = "同时翻转";
+"indoor_50Hz" = "室内 50Hz";
+"indoor_60Hz" = "室内 60Hz";
+"indoor" = "室内";
+"outdoor" = "室外";
+"night_vision" ="夜视";
+
+"off" = "关闭";
+"no_record" = "关闭录像";
+"full_time_record" = "全天录像";
+"alarm_trigger_record" = "告警触发";
+"manual_trigger_record" = "手动触发";
+
+"alarm_silent" = "安静模式";
+"alarm_audio" = "铃声";
+"alarm_vibrate" = "震动";
+"alarm_both" = "铃声及震动";
+
+"err101" = "";
+"err102" = "";
+"err103" = "";
+"err104" = "";
+"err105" = "";
+"err106" = "";
+"err107" = "账号不存在";
+"err108" = "";
+"err109" = "";
+"err110" = "";
+"err111" = "";
+"err112" = "";
+"err113" = "";
+"err114" = "";
+"err115" = "";
+"err201" = "";
+"err202" = "";
+"err203" = "";
+"err204" = "";
+"err205" = "";
+"err206" = "";
+"err207" = "";
+"err208" = "";
+"err209" = "";
+"err302" = "密码错误";
+
+"IOTCER_NOT_INITIALIZED" ="IOTC未初始化";
+"IOTCER_UNLICENSE" = "设备编号无效";
+"IOTCER_EXCEED_MAX_SESSION" = "已到最大会话数";
+"IOTCER_DEVICE_NOT_LISTENING" = "设备不在监听";
+"IOTCER_FAIL_CONNECT_SEARCH" = "本地搜索结束";
+"IOTCER_FAIL_RESOLVE_HOSTNAME" = "域名解析失败";
+"IOTCER_FAIL_CREATE_THREAD" = "创建线程失败";
+"IOTCER_TCP_TRAVEL_FAILED" = "无法访问主服务器";
+"IOTCER_TCP_CONNECT_TO_SERVER_FAILED" = "TCP访问服务器失败";
+"IOTCER_CAN_NOT_FIND_DEVICE" = "离线";
+"IOTCER_NO_PERMISSION" = "未启用TCP中转";
+"IOTCER_SERVER_NOT_RESPONSE" = "服务器无响应";
+"IOTCER_FAIL_GET_LOCAL_IP" = "获取本地地址失败";
+"IOTCER_FAIL_SETUP_RELAY" = "建立服务中转失败";
+"IOTCER_FAIL_CREATE_SOCKET" = "套接字创建失败";
+"IOTCER_FAIL_SOCKET_OPT" = "套接字设置失败";
+"IOTCER_FAIL_SOCKET_BIND" = "套接字绑定失败";
+"IOTCER_NOT_SUPPORT_RELAY" = "服务器不支持中转";
+"IOTCER_NO_SERVER_LIST" = "无服务器";
+"IOTCER_DEVICE_MULTI_LOGIN" = "多设备复用UID";
+"IOTCER_INVALID_SID" = "无效SID";
+"IOTCER_UNKNOWN" = "未知错误";
+"IOTCER_TIMEOUT" = "连接超时";
+"IOTCER_SESSION_CLOSE_BY_REMOTE" = "远端关闭";
+"IOTCER_FAIL" = "连接失败";
+
+"AV_ER_INVALID_ARG" = "无效参数";
+"AV_ER_NOT_INITIALIZED" = "AV未初始化";
+"AV_ER_EXCEED_MAX_CHANNEL" = "已到最大通道数";
+"AV_ER_FAIL_CREATE_THREAD" = "创建线程失败";
+"AV_ER_SERV_NO_RESPONSE" = "设备未响应";
+"AV_ER_SESSION_CLOSE_BY_REMOTE" = "设备已关闭会话";
+"AV_ER_REMOTE_TIMEOUT_DISCONNECT" = "远端超时";
+"AV_ER_INVALID_SID" = "会话标识无效";
+"AV_ER_CLIENT_EXIT" = "连接退出";
+"AV_ER_TIMEOUT" = "登陆超时";
+"AV_ER_WRONG_VIEWACCorPWD" = "账号密码错误";
+
+"create_account_txt" = "创建账号";
+"id_or_email_txt" = "账号或Email地址";
+"checkcode_txt" = "校验码";
+"login_section_footer_txt" = "";
+"register_section_footer_txt" = "";
+
+"please_choose_wifi_txt" = "请选择你希望加入的网络.";
+"login_id_txt" = "账号";
+"experience_txt" = "尝鲜体验";
+"register_txt" = "创建账号";
+"login_txt" = "用户登陆";
+"logout_txt" = "退出登陆";
+"remember_password_txt" = "记住密码";
+"my_cameras_txt" = "我的摄像头";
+"featured_cameras_txt" = "公共摄像头";
+"activity_txt" = "摄像头通知";
+"cloudrecord_txt" = "我的云视频";
+"snapshot_txt" = "我的云相册";
+"buddy_txt" = "我的小伙伴";
+"settings_txt" = "设置";
+"more_txt" = "更多设置项";
+"my_account_txt" = "账号与安全";
+"notifications_txt" = "新消息通知";
+"receive_notification_txt" = "接收新消息通知";
+"notifications_on_txt" = "已开启";
+"notifications_off_txt" = "已关闭";
+"notifications_nodisturb_txt" = "勿扰模式";
+"on_txt" = "开启";
+"on_just_night_txt" = "仅在夜间开启";
+"off_txt" = "关闭";
+"notification_voice_txt"="声音";
+"notification_vibrate_txt"="震动";
+
+"cloudservice_txt"= "云服务";
+
+"cloudservice_activate_txt" = "激活云服务";
+
+"privacy_txt" = "隐私";
+"general_txt" = "通用";
+"about_txt" = "关于";
+"back_txt" = "返回";
+
+"ap_ssid" = "无线局域网";
+"ap_key"  = "密码";
+"ap_rssi" = "信号强度";
+"ap_secmode" = "安全选项";
+"ap_showpwd" = "显示密码";
+"ap_pwd_placeholder" = "请输入密码";
+
+"easy_setup_device_auth_info" = "请输入登录摄像头账号和密码";
+"easy_setup_device_description" = "请输入摄像头的描述信息";
+"device_login" = "账号";
+"device_password" = "密码";
+"device_name" = "名称";
+"device_location"  = "位置";
+
+"by_wifi_direct_txt" = "敏捷连接模式A";
+"by_setup_wifi_txt" =  "无线连接新设备";
+"by_search_txt" =      "局域网搜索添加";
+"by_scan_qrcode_txt" = "二维码扫描添加";
+"reload_txt" =         "重新加载摄像头";
+"create_new_account_note" = "还没有账号？创建账号";
+"initial_camera_txt" = "安装摄像头";
+"init_camera_notify_txt" = "请确认手机无线局域网已连接到摄像头自带的热点MyAP";
+"init_camera_step1_txt" = "启动摄像头搜索可以接入的本地热点";
+
+"init_camera_step2_txt" = "摄像头周围的WIFI热点";
+"init_camera_step3_txt" = "摄像头连接到指定WIFI热点";
+"uid_len_invalid" = "未能识别出有效的设备标识（UID）";
+"easy_scan_uid_txt" = "初次配置摄像头，请扫描设备标识（UID）配置WIFI网络";
+"easy_select_uid_txt" = "配置列表中已存在设备，请选择设备";
+"too_many_bytes" = "SSID和Key的总长度不能超过98字节";
+
+"wifi_ssid_no_input" = "请输入无线网络名称（SSID）";
+"uid_no_input" = "或输入摄像头的标识（UID）的前4位来配置WIFI网络";
+
+"easy_setup_note_txt" = "请确认手机已连接到WIFI无线网络，且设备在蓝灯闪烁，如在其他状态请轻按设备上的reset键进入蓝灯闪烁状态";
+"easy_input_wifi_key_txt" = "请输入无线网络密码";
+"easy_setup_apply_txt" = "应用";
+"easy_selected_uid_txt" = "配置列表中已存在设备，请选择设备";
+"easy_setup_step1_txt" = "选择摄像头";
+"easy_setup_step2_txt" = "选择网络";
+"easy_setup_step3_txt" = "添加到我的账号";
+"wifi_config" = "无线局域网配置";
+
+
+"easy_input_device_login_txt" = "请输入摄像头登录账号";
+"easy_input_device_password_txt" = "请输入摄像头登录密码";
+
+"scan_uid_txt" = "扫描二维码";
+"next_step_txt" = "下一步";
+"ui_info_no_selectuid" = "请扫描新设备编号或选择已有设备";
+
+"account_and_security_txt" = "账号与安全";
+"account_txt" = "账号";
+"old_password_txt" = "原始密码";
+"old_password_placeholder_txt" = "请输入您的原始密码";
+"new_password_txt" = "新的密码";
+"new_password_placeholder_txt" = "请输入新的密码";
+"reenter_password_txt" = "确认密码";
+"reenter_password_placeholder_txt" = "请再次输入新的密码";
+"apply_button_txt" = "应用";
+
+"device_password_change_ok" = "设备密码修改成功";
+"device_password_mismatch" = "两次输入的新密码不同，请重新输入";
+"device_password_isnull" = "请输入新的登录密码";
+
+"tutorial_welcome" = "欢迎";
+
+"tutorial_title0_desc"= "";
+"tutorial_title1_desc"= "";
+"tutorial_title2_desc"= "";
+"tutorial_title3_desc"= "";
+"tutorial_title4_desc"= "";
+
+"tutorial_page0_desc"= "";
+"tutorial_page1_desc"= "";
+"tutorial_page2_desc"= "";
+"tutorial_page3_desc"= "";
+"tutorial_page4_desc"= "";
+
+"reach_max_device" = "已达最多设备数, 请删除一些再添加";
+"device_already_bound" = "设备已绑定, 请通知原用户解除绑定，再试一次";
+"device_uid_invalid" = "设备UID未授权";
+"login_to_device_timeout" = "登陆设备超时";
+
+"notify_format_storage" = "存储卡未格式化";
+"format_storage_btn" = "格式化";
+"close_btn" = "关闭";
+"notify_no_storage" = "摄像头未检测到存储卡";
+"note_for_sure_format_storage" = "是否对存储卡进行格式化？";
+"format_storage" = "格式化存储卡";
+"sound_dectection" = "声音侦测";
+"temp_detection" = "温度侦测";
+
+"substream_txt" = "标清";
+"mainstream_txt" = "高清";
+
+"record_tile_txt" = "查看录像";
+
+"record_byfile_txt" = "文件列表";
+"record_byevent_txt" = "事件列表";
+
+"record_file_count_txt" = "文件总数";
+"record_event_count_txt" = "事件总数";
+
+"file_downloaded_count_txt" = "下载完成";
+"file_downloading_count_txt" = "正在下载";
+
+"record_ondevice_txt" = "在设备";
+"record_oncloud_txt" = "在云端";
+"record_atlocal_txt" = "在本地";
+
+"record_search_1day_txt" = "一天以内";
+"record_search_2day_txt" = "两天以内";
+"record_search_3day_txt" = "三天以内";
+"record_search_7day_txt" = "七天以内";
+"record_search_all_txt"  = "显示全部";
+"record_search_other_txt" = "选择时间段";
+
+"p1_tab_snap"   = "拍照";
+"p1_tab_record" = "录像";
+"p1_tab_talk"   = "对讲";
+"p1_tab_video"  = "视频";
+"p1_tab_setting"= "设置";
+
+"p2_tab_device"   = "在设备";
+"p2_tab_transfer" = "传输列表";
+"p2_tab_cloud" = "在云端";
+"p2_tab_local"    = "在本地";
+
+"lm_sect_title_device"  = "设备";
+"lm_sect_title_mgmt"    = "管理";
+"lm_sect_title_other"   = "其他";
+
+

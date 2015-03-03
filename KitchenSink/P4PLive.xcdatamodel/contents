@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Account" representedClassName="Account" syncable="YES">
+        <attribute name="autoLogin" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloud_auth_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloud_keyID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloud_priv_secret" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloud_priv_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloud_pub_secret" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloud_pub_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloud_token_lifetime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloud_type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hasLogin" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastLogin" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="savePassword" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="user_loginID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_safePassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_secret" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_token_lifetime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="alertType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="devUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snapFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timeZone" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MyDeviceList" representedClassName="Device" syncable="YES">
+        <attribute name="devLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devLoginID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devNumChn" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="devPwd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="devType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="devUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOwner" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPublic" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isShare" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastActiveTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timeZone" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PublicDeviceList" representedClassName="Device" syncable="YES">
+        <attribute name="devLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devLoginID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devNumChn" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="devPwd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="devType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="devUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOwner" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPublic" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isShare" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastActiveTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timeZone" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Account" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Event" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MyDeviceList" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PublicDeviceList" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

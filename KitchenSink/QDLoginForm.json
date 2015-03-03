@@ -1,0 +1,19 @@
+{
+	"grouped": true,
+	"title": "Login Form",
+    "controllerName": "LoginController",
+	"sections": [
+		{ "title":"Awesome Login Form", "headerImage":"logo", "footer":"Please type your credentials.", "elements": [
+				{ "type":"QEntryElement", "keyboardType":"EmailAddress", "title":"Login","placeholder":"Login or email", "bind":"textValue:login", "key":"login_key"},
+				{  "type":"QEntryElement", "title":"Password", "placeholder":"Password",  "secureTextEntry":true, "bind":"textValue:password","key":"password_key" },
+                { "type":"QBooleanElement", "title":"Auto Login", "boolValue":0, "bind":"boolValue:bool","key":"autologin_key"},
+                                                                                                                     
+                                                                                                
+			]
+		},
+		{ "elements":[
+                { "type":"QButtonElement", "key":"button_key", "title":"Login", "controllerAction":"onLogin:"}
+			]
+		}
+	]
+}

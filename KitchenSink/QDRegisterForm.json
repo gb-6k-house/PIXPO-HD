@@ -1,0 +1,18 @@
+{
+	"grouped": true,
+	"title": "Register Form",
+    "controllerName": "RegisterController",
+	"sections": [
+		{ "title":"Awesome Register Form", "headerImage":"logo", "footer":"Please type your credentials.", "elements": [
+				{ "type":"QEntryElement", "keyboardType":"EmailAddress", "title":"Login","placeholder":"Login or email", "bind":"textValue:login", "key":"login_key"},
+				{  "type":"QEntryElement", "title":"Password", "placeholder":"Password",  "secureTextEntry":true, "bind":"textValue:password","key":"password_key" },
+                                                                                                                        
+                {  "type":"QEntryElement", "title":"Checkcode", "placeholder":"",  "secureTextEntry":true, "bind":"textValue:checkcode","key":"checkcode_key" }
+        },
+
+		{ "elements":[
+                { "type":"QButtonElement", "key":"button_key", "title":"Create", "controllerAction":"onCreate:"}
+			]
+		}
+	]
+}
